@@ -14,7 +14,7 @@ def calc_time(func):
         return val
     return inner1
 
-@calc_time
+@calc_time 
 def factorial1(n):
     ans = 1
     for i in range(1,n+1):

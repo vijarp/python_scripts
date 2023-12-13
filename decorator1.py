@@ -8,7 +8,7 @@ def person_lister(f):
        return people
     return inner
 
-@person_lister
+@person_lister 
 def name_format(person):
     return ("Mr. " if person[3] == "M" else "Ms. ") + person[0] + " " + person[1]
 
