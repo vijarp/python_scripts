@@ -6,7 +6,7 @@ with open('data.pkl', 'rb') as file:
     d = pickle.load(file)
 
 # Print d
-print(d)
+print(d) 
 
 # Print datatype of d
 print(type(d))

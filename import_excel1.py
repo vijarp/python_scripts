@@ -12,7 +12,7 @@ file = 'battledeath.xlsx'
 xls = pd.ExcelFile(file)
 
 # Print sheet names
-print(xls.sheet_names)
+print(xls.sheet_names) 
 
 
 # Load a sheet into a DataFrame by name: df1

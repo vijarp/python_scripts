@@ -6,4 +6,4 @@ file = 'titanic.csv'
 
 d =np.recfromcsv(file)
 # Print out first three entries of d
-print(d[:3])
+print(d[:3]) 
